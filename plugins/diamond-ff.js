@@ -19,7 +19,7 @@ conn.sendMessage(
       location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/IMG-20220909-WA0105.jpg') },
       caption: ArdXNasBot,
       footer: 'Diamond FF',
-      buttons: [{buttonId: 'id1', buttonText: {displayText: 'Button 1'}, type: 1}],
+      buttons: [{buttonId: '.diamond', buttonText: {displayText: 'DIAMOND💎'}, type: 1}],
       headerType: 1
     }
 )
