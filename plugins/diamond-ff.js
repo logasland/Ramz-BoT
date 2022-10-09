@@ -1,6 +1,7 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
-let ArdXNasBot = `💎 List Harga DIAMOND FF  Harga tidak tetap
+let ArdXNasBot = `💎 _*List Harga DIAMOND FF  Harga tidak tetap*_
+
 5 DM.         : 1,269
 20 DM.       : 3,380
 50 DM.       : 7,402
@@ -11,12 +12,12 @@ let ArdXNasBot = `💎 List Harga DIAMOND FF  Harga tidak tetap
 2000 DM.   : 252,750
 Member Mingguan.  : 28,550
 Member Bulanan.     : 85,700
-PENTING ❗❗ : sewaktu2 harga akan berubah tanyakan admin terlebih dahulu sebelum transaksi
+PENTING ❗❗ : _*sewaktu2 harga akan berubah tanyakan admin terlebih dahulu sebelum transaksi*_
 Chat untuk beli : Wa.me/6288220924312/?text=hai+kak+beliDM+FF`
 conn.sendMessage(
     m.chat, 
     {
-      location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/IMG-20220909-WA0105.jpg') },
+      location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/Maung.jpg') },
       caption: ArdXNasBot,
       footer: 'Diamond FF',
       buttons: [{buttonId: '.diamond', buttonText: {displayText: 'DIAMOND💎'}, type: 1}],
