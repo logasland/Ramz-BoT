@@ -13,6 +13,17 @@ type *${usedPrefix}buy potion ${count - user.potion}* to buy 🧃Potion
     user.health += heal * count
     m.reply(`
 Successful use of *${count}* 🧃Potion(s)
+conn.sendMessage(
+    m.chat, 
+    {
+      location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/Maung.jpg') },
+      caption: ArdXNasBot,
+      footer: 'Isi Darah lgi?',
+      buttons: [{buttonId: '.heal', buttonText: {displayText: 'REHEAL🩹'}, type: 1}],
+      headerType: 1
+    }
+)
+}
 `.trim())
 }
 
