@@ -13,7 +13,7 @@ https://chat.whatsapp.com/LF0rq140SmDDHd3nQ62SVm
 conn.sendMessage(
     m.chat, 
     {
-      location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/Maung.jpg') },
+      location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/20221009_092026.jpg') },
       caption: ArdXNasBot,
       footer: 'Diamond FF',
       buttons: [{buttonId: '.menu', buttonText: {displayText: 'MENU 🏵️'}, type: 1}],
