@@ -16,6 +16,7 @@ conn.sendMessage(
       location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/Maung.jpg') },
       caption: ArdXNasBot,
       footer: 'Diamond FF',
+      buttons: [{buttonId: '.menu', buttonText: {displayText: 'MENU 🏵️'}, type: 1}],
       headerType: 1
     }
 )
