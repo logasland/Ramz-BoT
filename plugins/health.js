@@ -20,8 +20,8 @@ conn.sendMessage(
     m.chat, 
     {
       location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/Maung.jpg') },
-      caption: ArdXNasBot,
-      footer: 'Isi Darah lgi?',
+      caption: 'isi darah lagi',
+      footer: wm,
       buttons: [{buttonId: '.heal', buttonText: {displayText: 'REHEAL🩹'}, type: 1}],
       headerType: 1
     }
