@@ -13,6 +13,9 @@ type *${usedPrefix}buy potion ${count - user.potion}* to buy 🧃Potion
     user.health += heal * count
     m.reply(`
 Successful use of *${count}* 🧃Potion(s)
+
+`.trim())
+}
 conn.sendMessage(
     m.chat, 
     {
@@ -23,8 +26,6 @@ conn.sendMessage(
       headerType: 1
     }
 )
-}
-`.trim())
 }
 
 handler.help = ['heal']
