@@ -10,8 +10,14 @@ let ArdXNasBot = `*─ 「 INFO - BOT - OWNER 」 ─*
 📣 *Join OUR group FREE BOT* 👇
 https://chat.whatsapp.com/LF0rq140SmDDHd3nQ62SVm 
 `
-conn.sendFile(m.chat, fs.readFileSync('./src/blackpink.png'), 'file.AXS', ArdXNasBot, m)
-//conn.sendButton(m.chat, ArdXNasBot, wm, null, [['Menu', '.menu'],['Owner', '.owner']], m)
+conn.sendMessage(
+    m.chat, 
+    {
+      location: { degreesLatitude: undefined, degreesLongitude: undefined, jpegThumbnail: fs.readFileSync('./media/Maung.jpg') },
+      caption: ArdXNasBot,
+      footer: 'Diamond FF',
+    }
+)
 }
 handler.help = ['infosc']
 handler.tags = ['main']
