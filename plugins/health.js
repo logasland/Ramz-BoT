@@ -11,7 +11,7 @@ type *${usedPrefix}buy potion ${count - user.potion}* to buy 🧃Potion
 `.trim())
     user.potion -= count * 1
     user.health += heal * count
-    m.reply(`
+    m.chat(`
 Successful use of *${count}* 🧃Potion(s)
 `.trim())
 }
